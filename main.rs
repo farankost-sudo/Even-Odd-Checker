@@ -7,7 +7,7 @@ fn main() {
            .read_line(&mut number)
            .expect("Input error");
 
-       let number: i32 = number.trim().parse("pleasea enter valid number").expect("Enter a number");
+       let number: i32 = number.trim().parse().expect("Enter a number");
        if number == 0 {
            break;}
           
